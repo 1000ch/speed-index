@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "npm run copy && npm run js",
+    "copy": "rm -rf dist && cp -r src dist",
+    "js": "browserify src/js/script.js -o dist/js/script.js"
+  },
+  "dependencies": {
+    "rum-speedindex": "git+https://github.com/WPO-Foundation/RUM-SpeedIndex.git"
+  },
+  "devDependencies": {
+    "browserify": "^14.3.0"
+  }
+}
