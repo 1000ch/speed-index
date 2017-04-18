@@ -1,4 +1,6 @@
-# speed-index
+# Chrome RUM-SpeedIndex
+
+A chrome extension that shows [RUM Speed Index](https://github.com/WPO-Foundation/RUM-SpeedIndex) of current page.
 
 ## License
 

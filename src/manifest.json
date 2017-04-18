@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
-  "name": "Speed Index",
-  "short_name": "Speed Index",
+  "name": "RUM Speed Index",
+  "short_name": "RUM Speed Index",
   "version": "1.0.0",
-  "description": "Show Speed Index of current page.",
+  "description": "A chrome extension that shows RUM Speed Index of current page.",
   "author": "1000ch",
   "permissions": [
     "background",
@@ -11,7 +11,8 @@
     "*://*/*"
   ],
   "browser_action": {
-    "default_title": "Speed Index"
+    "default_title": "RUM Speed Index",
+    "default_popup": "html/popup.html"
   },
   "background": {
     "scripts": ["js/background.js"],

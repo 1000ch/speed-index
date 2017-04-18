@@ -1,4 +1,4 @@
-PROJECTNAME="Speed Index"
+PROJECTNAME="Chrome RUM-SpeedIndex"
 
 all: prelogue build archive epilogue
 

@@ -1,6 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
-  chrome.runtime.onMessage.addListener((results, sender, sendResponse) => {
-    document.querySelector('#speedIndex').textContent = results.speedIndex;
+  const speedIndex = document.querySelector('#speedIndex');
+
+  chrome.runtime.onMessage.addListener(results => {
+    speedIndex.textContent = results.speedIndex;
   });
 
   chrome.tabs.executeScript({
